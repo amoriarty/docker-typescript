@@ -1,0 +1,2 @@
+typings install
+tsc -w

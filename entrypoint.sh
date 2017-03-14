@@ -1,2 +1,4 @@
-typings install
+if [ ! -d "typings" ]; then
+	typings install
+fi
 tsc -w
